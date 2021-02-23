@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Enter employee details</h2>
+    <form action="backend.php">
+        <div>
+            <label for="Name">Name: </label>
+            <input type="text" name="myName" id="Name">
+        </div>
+        <br>
+        <div>
+            Employee Id: <input type="text" name="myEmpId">
+        </div>
+        <br>
+        <div>
+            Salary: <input type="number" name="myNum">
+        </div>
+        <br>
+        <div>
+            Email Id: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            DOB: <input type="date" name="DOB" id="dob">
+        </div>
+        <br>
+        <div>
+            Tell something about yourself: <br> <textarea name="Bio" id="" cols="15" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> Others<input
+                type="radio" name="myGender">
+            <!-- name= myGender is same for all for radio buttons of same radiogroup -->
+        </div>
+        <br>
+        <div>
+            <label for="Car">Select car: </label>
+            <select name="myCar" id="Car">
+                <option value="Swf">Swift</option>
+                <option value="bmw">BMW</option>
+                <option value="tsl">Tesla</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="terms">I agree with terms and conditions: </label>
+            <input type="checkbox" name="myTerms" id="terms">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Login" name="Submit">
+            <input type="reset" value="Reset form">
+        </div>
+    </form>
+</body>
+
+</html>
