@@ -1,0 +1,3 @@
+[submodule "coder-stacks"]
+	path = coder-stacks
+	url = https://github.com/ayushtamra/coder-stacks.git
